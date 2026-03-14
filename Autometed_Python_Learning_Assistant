@@ -87,6 +87,18 @@ def module_10():
 # ====================================================================
 
 def main():
+    header("Hey friends!👋\nI'm JARVIS - Your Python Learning Assistant.\nBefore we start, May I know your name?")
+    
+    name = input("👉 Enter your name: ").strip()
+    if not name:
+        name = "Friend"
+    
+    slow_print(f"\nNice to meet you, {name}. Let's begin your python journey together🚀")
+    wait()
+    
+    print("Let's start our main module.\nThe journey has been organized into 10 modules.")
+    wait()
+
     """
     Main function that controls the entire learning assistant flow.
     Displays welcome header, waits for user, shows 10-module menu,
