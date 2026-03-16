@@ -1,6 +1,23 @@
 import sys
 import time
 
+
+
+# ====================================================================
+# Handle multi-word names by asking for a single-word nickname (For fun)
+# ====================================================================
+
+def get_single_word_name(full_name):
+    words = full_name.split()
+    if len(words) > 1:
+        slow_print(f"\nHaha😊 '{full_name}'! That's a lovely name, but it's a bit of a mouthful!")
+        slow_print("Do you have a shorter version so I don't get tried saying it? 😅")
+        nickname = input("👉 Enter a single-word nickname: ").strip()
+        while len(nickname.split()) > 1 or not nickname:
+            nickname = input("👉 Just one word please: ").strip()
+        return nickname
+    return full_name
+
 # ====================================================================
 # CORE UTILITIES - Typewriter effect and user interaction functions
 # ====================================================================
@@ -89,10 +106,11 @@ def module_10():
 def main():
     header("Hey friends!👋\nI'm JARVIS - Your Python Learning Assistant.\nBefore we start, May I know your name?")
     
-    name = input("👉 Enter your name: ").strip()
-    if not name:
-        name = "Friend"
+    raw_name = input("👉 Enter your name: ").strip()
+    if not raw_name:
+        raw_name = "Friend"
     
+    name = get_single_word_name(raw_name)
     slow_print(f"\nNice to meet you, {name}. Let's begin your python journey together🚀")
     wait()
     
