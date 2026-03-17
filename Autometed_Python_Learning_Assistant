@@ -45,6 +45,40 @@ def header(title):
 
 
 # ====================================================================
+# PYTHON INTRODUCTION - What, Who, Where, Why
+# ====================================================================
+
+def introduce_python():
+    """Explains Python basics before starting modules"""
+    print("\n📚 Let me tell you about Python first!\n")
+    wait()
+    
+    print("🔹 What is Python?")
+    print("   Python is a high-level, interpreted programming language.")
+    print("   It is known for its simple, easy-to-read syntax.\n")
+    wait()
+    
+    print("🔹 Who created Python?")
+    print("   Guido van Rossum created Python and first released it in 1991.")
+    print("   The name 'Python' comes from Monty Python's Flying Circus.\n")
+    wait()
+    
+    print("🔹 Where is Python used?")
+    print("   - Web Development (Django, Flask)")
+    print("   - Data Science & AI (TensorFlow, Pandas)")
+    print("   - Automation & Scripting")
+    print("   - Game Development (Pygame)\n")
+    wait()
+    
+    print("🔹 Why is Python popular?")
+    print("   ✓ Easy to learn and read")
+    print("   ✓ Large community and libraries")
+    print("   ✓ Cross-platform compatibility")
+    print("   ✓ Great for beginners and professionals\n")
+    wait()
+
+
+# ====================================================================
 # COMPLETE MODULES - Full implementation of all 10 learning modules
 # ====================================================================
 
@@ -113,17 +147,8 @@ def main():
     name = get_single_word_name(raw_name)
     slow_print(f"\nNice to meet you, {name}. Let's begin your python journey together🚀")
     wait()
-    
-    print("Let's start our main module.\nThe journey has been organized into 10 modules.")
-    wait()
 
-    """
-    Main function that controls the entire learning assistant flow.
-    Displays welcome header, waits for user, shows 10-module menu,
-    and handles user choices in an infinite loop until quit.
-    """
-    header("Hey friends!👋\nI'm JARVIS - Your Python Learning Assistant.")
-    wait()
+    introduce_python()
     
     print("Let's start our main module.\nThe journey has been organized into 10 modules.")
     wait()
