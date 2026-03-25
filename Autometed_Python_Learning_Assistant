@@ -497,8 +497,119 @@ def module_1():
     wait()
 
 def module_2():
-    """Module 2: Conditional Statements - if, elif, else fully implemented"""
+    # 2.0 Introduction
     print("📘 Module 2: Conditional Statements")
+    print("2.0 Introduction (Module Overview)")
+    print("In this module, we will learn:")
+    print("    - What conditional statements are and why they are necessary")
+    print("    - The comparison operators (==, !=, >, <, >=, <=)")
+    print("    - How to use if, if-else, and if-elif-else statements")
+    print("    - Logical operators (and, or, not)")
+    print("    - Ternary operator (shorthand if-else)")
+    print("    - Nested if statements")
+    print("-" * 50)
+    wait()
+
+    # 2.1 What is a Conditional Statement?
+    print("\n2.1 What is a Conditional Statement?")
+    print("A conditional statement allows a program to make decisions based on conditions.")
+    print("Simple Explanation: It's like asking a question.")
+    
+    print("\nReal-life example:")
+    print("If it rains → take an umbrella")
+    print("Else → wear sunglasses")
+    wait()
+
+    # 2.2 Comparison Operators
+    print("\n2.2 Comparison Operators")
+    print("Comparison operators always return True or False.")
+    print("+" + "-" * 63 + "+")
+    print("| Operator | Meaning                 | Example       | Result ")
+    print("+" + "-" * 63 + "+")
+    print("| ==       | equal to                | 5 == 5        | True   ")
+    print("| !=       | not equal to            | 5 != 3        | True   ")
+    print("| >        | greater than            | 10 > 5        | True   ")
+    print("| <        | less than               | 3 < 7         | True   ")
+    print("| >=       | greater than or equal   | 5 >= 5        | True   ")
+    print("| <=       | less than or equal      | 4 <= 6        | True   ")
+    print("+" + "-" * 63 + "+")
+    wait()
+
+    # 2.3 The if Statement
+    print("\n2.3 The if Statement")
+    print("Use 'if' when you want code to run ONLY IF the condition is True.")
+    
+    print("\nSyntax:")
+    print("if condition:")
+    print("    # code runs when condition is True")
+    
+    print("\nCode Example:")
+    print("+" + "-" * 35 + "+")
+    print("| temperature = 35                     ")
+    print("| if temperature > 30:                 ")
+    print("|     print('Hot outside')             ")
+    print("+" + "-" * 35 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 25 + "+")
+    print("| Hot outside          ")
+    print("+" + "-" * 25 + "+")
+    wait()
+
+    # 2.4 The if-else Statement
+    print("\n2.4 The if-else Statement")
+    print("Use 'if-else' for two different actions.")
+    
+    print("\nSyntax:")
+    print("if condition:")
+    print("    # runs when True")
+    print("else:")
+    print("    # runs when False")
+    
+    print("\nCode Example:")
+    print("+" + "-" * 40 + "+")
+    print("| age = 16                             ")
+    print("| if age >= 18:                        ")
+    print("|     print('Can vote')                ")
+    print("| else:                                ")
+    print("|     print('Cannot vote')             ")
+    print("+" + "-" * 40 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 25 + "+")
+    print("| Cannot vote          ")
+    print("+" + "-" * 25 + "+")
+    wait()
+
+    # 2.5 The if-elif-else Statement
+    print("\n2.5 The if-elif-else Statement")
+    print("Use 'elif' for multiple conditions.")
+    
+    print("\nSyntax:")
+    print("if condition1:")
+    print("    # runs if condition1 is True")
+    print("elif condition2:")
+    print("    # runs if condition1 is False and condition2 is True")
+    print("else:")
+    print("    # runs if all are False")
+    
+    print("\nCode Example (Grade Calculator):")
+    print("+" + "-" * 35 + "+")
+    print("| score = 75                          ")
+    print("| if score >= 90:                     ")
+    print("|     grade = 'A+'                    ")
+    print("| elif score >= 80:                   ")
+    print("|     grade = 'A'                     ")
+    print("| elif score >= 70:                   ")
+    print("|     grade = 'B'                     ")
+    print("| else:                               ")
+    print("|     grade = 'F'                     ")
+    print("+" + "-" * 35 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 20 + "+")
+    print("| Your grade: B     ")
+    print("+" + "-" * 20 + "+")
     wait()
 
 def module_3():
