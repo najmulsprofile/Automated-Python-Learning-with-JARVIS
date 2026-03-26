@@ -612,6 +612,100 @@ def module_2():
     print("+" + "-" * 20 + "+")
     wait()
 
+        # 2.6 Logical Operators
+    print("\n2.6 Logical Operators (and, or, not)")
+    print("Logical operators help you COMBINE multiple conditions.")
+    
+    print("\n🔹 AND Operator (and)")
+    print("Both conditions must be True")
+    
+    print("\nCode Example:")
+    print("+" + "-" * 45 + "+")
+    print("| age = 20                             ")
+    print("| has_ticket = True                    ")
+    print("| if age >= 18 and has_ticket:         ")
+    print("|     print('You can enter')           ")
+    print("+" + "-" * 45 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 25 + "+")
+    print("| You can enter        ")
+    print("+" + "-" * 25 + "+")
+    
+    print("\n🔹 OR Operator (or)")
+    print("At least one condition must be True")
+    
+    print("\nCode Example:")
+    print("+" + "-" * 45 + "+")
+    print("| day = 'Saturday'                     ")
+    print("| if day == 'Saturday' or day == 'Sunday':")
+    print("|     print('Holiday')                 ")
+    print("+" + "-" * 45 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 20 + "+")
+    print("| Holiday          ")
+    print("+" + "-" * 20 + "+")
+    
+    print("\n🔹 NOT Operator (not)")
+    print("Reverses the result (True becomes False)")
+    
+    print("\nCode Example:")
+    print("+" + "-" * 35 + "+")
+    print("| is_locked = False                    ")
+    print("| if not is_locked:                    ")
+    print("|     print('Door is open')            ")
+    print("+" + "-" * 35 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 25 + "+")
+    print("| Door is open         ")
+    print("+" + "-" * 25 + "+")
+    wait()
+
+    # 2.7 The Ternary Operator
+    print("\n2.7 The Ternary Operator (Shorthand if-else)")
+    print("Write simple if-else in ONE line.")
+    
+    print("\nSyntax:")
+    print("variable = 'value_if_true' if condition else 'value_if_false'")
+    
+    print("\nCode Example:")
+    print("+" + "-" * 45 + "+")
+    print("| marks = 65                           ")
+    print("| result = 'Pass' if marks >= 40 else 'Fail'")
+    print("| print(result)                        ")
+    print("+" + "-" * 45 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 20 + "+")
+    print("| Pass             ")
+    print("+" + "-" * 20 + "+")
+    wait()
+
+    # 2.8 Nested if Statements
+    print("\n2.8 Nested if Statements")
+    print("Put an 'if' statement INSIDE another 'if' statement.")
+    
+    print("\nCode Example:")
+    print("+" + "-" * 50 + "+")
+    print("| age = 25                             ")
+    print("| has_license = True                   ")
+    print("| if age >= 18:                        ")
+    print("|     print('Age OK')                  ")
+    print("|     if has_license:                  ")
+    print("|         print('Can drive')           ")
+    print("|     else:                            ")
+    print("|         print('Need license')        ")
+    print("+" + "-" * 50 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 30 + "+")
+    print("| Age OK                 ")
+    print("| Can drive              ")
+    print("+" + "-" * 30 + "+")
+    wait()
+
 def module_3():
     """Module 3: Loops - for, while, nested loops complete"""
     print("📘 Module 3: Loops")
