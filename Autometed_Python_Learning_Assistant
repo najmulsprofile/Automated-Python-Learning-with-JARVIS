@@ -2,6 +2,25 @@ import sys
 import time
 
 
+# ====================================================================
+#Display progress bar showing completed modules (10% per module)
+# ====================================================================
+def show_progress():
+        completed = progress["completed_modules"]
+        total = progress["total_modules"]
+        percent = (completed * 10)
+        bar_length = 20
+        filled = int(bar_length * completed / total)
+        bar = "█" * filled + "░" * (bar_length - filled)
+        print(f"\n📊 Progress: [{bar}] {percent}% ({completed}/{total} modules done)")
+
+# ====================================================================
+# PROGRESS TRACKER - Keeps count of completed modules (10% per module)
+# ====================================================================
+
+progress = {
+        "completed_modules": 0,
+        "total_modules": 10}
 
 # ====================================================================
 # Handle multi-word names by asking for a single-word nickname (For fun)
@@ -494,6 +513,9 @@ def module_1():
     print("| Module 1 ends here. Next: Module 2 - Conditionals 🚀 ")
     print("+" + "-" * 50 + "+")
     
+    if progress["completed_modules"] < 1:
+        progress["completed_modules"] = 1
+    show_progress()
     wait()
 
 def module_2():
@@ -830,6 +852,9 @@ def module_2():
     print("Conditionals = Decision maker")
     print("Module 2 ends here. Next: Module 3 - Loops 🚀")
     
+    if progress["completed_modules"] < 2:
+        progress["completed_modules"] = 2
+    show_progress()
     wait()
 
 def module_3():
@@ -916,6 +941,7 @@ def main():
             print(f"🎯 [{index + 1}] {topic}")
 
         print("[Q] Quit & Exit")
+        show_progress()
         
         choice = input("\nEnter lesson number (1 to 10) or 'Q' to quit: ").strip().lower()
 
