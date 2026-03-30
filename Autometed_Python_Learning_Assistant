@@ -872,15 +872,24 @@ def module_3():
     print("    - Advanced loop techniques (else with loops, enumerate)")
     print("-" * 50)
     wait()
-
-    # 3.1 What is a Loop?
+    
+        # 3.1 What is a Loop? (Updated with box format)
     print("\n3.1 What is a Loop?")
     print("A loop is a control structure that repeats a block of code multiple times.")
     print("Simple Explanation: Instead of writing the same code 100 times, write it once inside a loop.")
     
-    print("\nReal-life example:")
-    print("Without loop: print('Hello') 100 times (100 lines of code)")
-    print("With loop: for i in range(100): print('Hello') (2 lines of code)")
+    print("\n📌 Real-life example:")
+    print("+" + "-" * 55 + "+")
+    print("| Without loop:                                       ")
+    print("| print('Hello')   # line 1                           ")
+    print("| print('Hello')   # line 2                           ")
+    print("| print('Hello')   # line 3                           ")
+    print("| ... up to 100 lines                                 ")
+    print("|                                                     ")
+    print("| With loop:                                          ")
+    print("| for i in range(100):                                ")
+    print("|     print('Hello')                                  ")
+    print("+" + "-" * 55 + "+")
     
     print("\nWhy loops matter:")
     print("    - Save time and reduce code duplication")
