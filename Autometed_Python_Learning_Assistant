@@ -873,6 +873,26 @@ def module_3():
     print("-" * 50)
     wait()
 
+    # 3.1 What is a Loop?
+    print("\n3.1 What is a Loop?")
+    print("A loop is a control structure that repeats a block of code multiple times.")
+    print("Simple Explanation: Instead of writing the same code 100 times, write it once inside a loop.")
+    
+    print("\nReal-life example:")
+    print("Without loop: print('Hello') 100 times (100 lines of code)")
+    print("With loop: for i in range(100): print('Hello') (2 lines of code)")
+    
+    print("\nWhy loops matter:")
+    print("    - Save time and reduce code duplication")
+    print("    - Process large amounts of data efficiently")
+    print("    - Automate repetitive tasks")
+    print("    - Make code cleaner and easier to maintain")
+    
+    print("\nTwo main types of loops in Python:")
+    print("🔹 for loop → Use when you know how many times to repeat")
+    print("🔹 while loop → Use when you don't know how many times to repeat")
+    wait()
+
 def module_4():
     """Module 4: Functions - reusable code blocks with full examples"""
     print("📘 Module 4: Functions")
