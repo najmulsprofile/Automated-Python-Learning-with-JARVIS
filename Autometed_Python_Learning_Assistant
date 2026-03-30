@@ -902,6 +902,60 @@ def module_3():
     print("🔹 while loop → Use when you don't know how many times to repeat")
     wait()
 
+        # 3.2 The for Loop
+    print("\n3.2 The for Loop")
+    print("The 'for' loop is used to iterate over a sequence (list, tuple, string, range, etc.).")
+    
+    print("\nSyntax:")
+    print("for variable in sequence:")
+    print("    # code to repeat")
+    
+    print("\nExample 1: Looping through a list")
+    print("Code:")
+    print("+" + "-" * 35 + "+")
+    print("| fruits = ['apple', 'banana', 'mango']  ")
+    print("| for fruit in fruits:                   ")
+    print("|     print(f'I like {fruit}')           ")
+    print("+" + "-" * 35 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 25 + "+")
+    print("| I like apple          ")
+    print("| I like banana         ")
+    print("| I like mango          ")
+    print("+" + "-" * 25 + "+")
+    
+    print("\nExample 2: Looping through a string")
+    print("Code:")
+    print("+" + "-" * 30 + "+")
+    print("| word = 'CAT'                      ")
+    print("| for letter in word:               ")
+    print("|     print(f'Letter: {letter}')    ")
+    print("+" + "-" * 30 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 20 + "+")
+    print("| Letter: C       ")
+    print("| Letter: A       ")
+    print("| Letter: T       ")
+    print("+" + "-" * 20 + "+")
+    
+    print("\nExample 3: Looping through a tuple")
+    print("Code:")
+    print("+" + "-" * 35 + "+")
+    print("| colors = ('red', 'green', 'blue')   ")
+    print("| for color in colors:                ")
+    print("|     print(f'Color: {color}')        ")
+    print("+" + "-" * 35 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 20 + "+")
+    print("| Color: red      ")
+    print("| Color: green    ")
+    print("| Color: blue     ")
+    print("+" + "-" * 20 + "+")
+    wait()
+
 def module_4():
     """Module 4: Functions - reusable code blocks with full examples"""
     print("📘 Module 4: Functions")
