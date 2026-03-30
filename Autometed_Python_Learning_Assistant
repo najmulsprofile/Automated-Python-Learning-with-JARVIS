@@ -858,8 +858,19 @@ def module_2():
     wait()
 
 def module_3():
-    """Module 3: Loops - for, while, nested loops complete"""
-    print("📘 Module 3: Loops")
+# 3.0 Introduction
+    print("📘 Module 3: Loops in Python")
+    print("3.0 Introduction (Module Overview)")
+    print("In this module, we will learn:")
+    print("    - What loops are and why they are necessary")
+    print("    - The 'for' loop (iterating over sequences)")
+    print("    - The 'range()' function")
+    print("    - The 'while' loop")
+    print("    - Loop control statements (break, continue, pass)")
+    print("    - Nested loops")
+    print("    - Infinite loops and how to avoid them")
+    print("    - Advanced loop techniques (else with loops, enumerate)")
+    print("-" * 50)
     wait()
 
 def module_4():
