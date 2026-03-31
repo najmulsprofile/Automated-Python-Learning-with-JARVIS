@@ -1033,6 +1033,37 @@ def module_3():
     print("+" + "-" * 20 + "+")
     wait()
 
+        # 3.4 The while Loop 
+    print("\n3.4 The while Loop")
+    print("The 'while' loop repeats as long as a condition is True.")
+    print("Use when you DON'T know how many times to repeat.")
+    
+    print("\nSyntax:")
+    print("while condition:")
+    print("    # code to repeat")
+    print("    # make sure condition eventually becomes False")
+    
+    print("\nExample 1: Count from 1 to 5")
+    print("Code:")
+    print("+" + "-" * 35 + "+")
+    print("| count = 1                         ")
+    print("| while count <= 5:                 ")
+    print("|     print(f'Count is {count}')    ")
+    print("|     count += 1                    ")
+    print("+" + "-" * 35 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 25 + "+")
+    print("| Count is 1          ")
+    print("| Count is 2          ")
+    print("| Count is 3          ")
+    print("| Count is 4          ")
+    print("| Count is 5          ")
+    print("+" + "-" * 25 + "+")
+    
+    print("\nExplanation: When count becomes 6, condition becomes False, loop stops.")
+    wait()
+
 def module_4():
     """Module 4: Functions - reusable code blocks with full examples"""
     print("📘 Module 4: Functions")
