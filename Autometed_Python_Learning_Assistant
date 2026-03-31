@@ -1064,6 +1064,32 @@ def module_3():
     print("\nExplanation: When count becomes 6, condition becomes False, loop stops.")
     wait()
 
+    print("\nExample 2: Password checker")
+    print("Code:")
+    print("+" + "-" * 50 + "+")
+    print("| correct_password = 'python123'          ")
+    print("| user_input = ''                         ")
+    print("| attempts = 0                            ")
+    print("|                                          ")
+    print("| while user_input != correct_password and attempts < 3:")
+    print("|     user_input = input('Enter password: ')")
+    print("|     attempts += 1                       ")
+    print("|                                          ")
+    print("| if user_input == correct_password:      ")
+    print("|     print('Login successful!')          ")
+    print("| else:                                   ")
+    print("|     print('Too many attempts. Locked')  ")
+    print("+" + "-" * 50 + "+")
+    
+    print("\nOutput (if user enters wrong twice then correct):")
+    print("+" + "-" * 45 + "+")
+    print("| Enter password: wrong              ")
+    print("| Enter password: wrong2             ")
+    print("| Enter password: python123          ")
+    print("| Login successful!                  ")
+    print("+" + "-" * 45 + "+")
+    wait()
+
 def module_4():
     """Module 4: Functions - reusable code blocks with full examples"""
     print("📘 Module 4: Functions")
