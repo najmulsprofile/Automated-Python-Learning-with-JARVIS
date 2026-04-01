@@ -1138,6 +1138,29 @@ def module_3():
     print("+" + "-" * 30 + "+")
     wait()
 
+        # Loop Control Statements 
+    print("\n🔹 pass statement:")
+    print("Does nothing. Used as a placeholder when syntax requires a statement.")
+    
+    print("\nExample: Placeholder for future code")
+    print("Code:")
+    print("+" + "-" * 45 + "+")
+    print("| for i in range(5):               ")
+    print("|     if i == 2:                   ")
+    print("|         pass    # future code    ")
+    print("|     else:                        ")
+    print("|         print(f'Processing {i}') ")
+    print("+" + "-" * 45 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 25 + "+")
+    print("| Processing 0     ")
+    print("| Processing 1     ")
+    print("| Processing 3     ")
+    print("| Processing 4     ")
+    print("+" + "-" * 25 + "+")
+    wait()
+
 def module_4():
     """Module 4: Functions - reusable code blocks with full examples"""
     print("📘 Module 4: Functions")
