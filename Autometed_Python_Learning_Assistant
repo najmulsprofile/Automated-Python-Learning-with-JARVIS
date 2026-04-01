@@ -1090,6 +1090,54 @@ def module_3():
     print("+" + "-" * 45 + "+")
     wait()
 
+        # 3.5 Loop Control Statements 
+    print("\n3.5 Loop Control Statements")
+    print("These statements give you more control over loop execution.")
+    
+    print("\n🔹 break statement:")
+    print("Exits the loop immediately, even if the condition is still True.")
+    
+    print("\nExample: Stop when you find the number 3")
+    print("Code:")
+    print("+" + "-" * 40 + "+")
+    print("| for i in range(1, 6):            ")
+    print("|     print(f'Checking {i}')       ")
+    print("|     if i == 3:                   ")
+    print("|         print('Found 3!')        ")
+    print("|         break                    ")
+    print("+" + "-" * 40 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 30 + "+")
+    print("| Checking 1          ")
+    print("| Checking 2          ")
+    print("| Checking 3          ")
+    print("| Found 3!            ")
+    print("+" + "-" * 30 + "+")
+    
+    print("\n🔹 continue statement:")
+    print("Skips the rest of the current iteration and moves to the next one.")
+    
+    print("\nExample: Skip number 3")
+    print("Code:")
+    print("+" + "-" * 45 + "+")
+    print("| for i in range(1, 6):            ")
+    print("|     if i == 3:                   ")
+    print("|         print('Skipping 3')      ")
+    print("|         continue                 ")
+    print("|     print(f'Processing {i}')     ")
+    print("+" + "-" * 45 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 30 + "+")
+    print("| Processing 1        ")
+    print("| Processing 2        ")
+    print("| Skipping 3          ")
+    print("| Processing 4        ")
+    print("| Processing 5        ")
+    print("+" + "-" * 30 + "+")
+    wait()
+
 def module_4():
     """Module 4: Functions - reusable code blocks with full examples"""
     print("📘 Module 4: Functions")
