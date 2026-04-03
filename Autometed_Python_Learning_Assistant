@@ -1259,6 +1259,49 @@ def module_3():
     print("\n⚠️ Warning: Always ensure your loop has a way to stop!")
     wait()
 
+        # 3.8 Advanced Loop Techniques 
+    print("\n3.8 Advanced Loop Techniques")
+    
+    print("\n🔹 Else with Loops:")
+    print("The 'else' block runs when the loop completes normally (not terminated by break).")
+    
+    print("\nExample 1: else with for (no break)")
+    print("Code:")
+    print("+" + "-" * 45 + "+")
+    print("| for i in range(3):               ")
+    print("|     print(i)                     ")
+    print("| else:                            ")
+    print("|     print('Loop completed')      ")
+    print("+" + "-" * 45 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 35 + "+")
+    print("| 0                               ")
+    print("| 1                               ")
+    print("| 2                               ")
+    print("| Loop completed without break    ")
+    print("+" + "-" * 35 + "+")
+    
+    print("\nExample 2: else with break (else won't run)")
+    print("Code:")
+    print("+" + "-" * 45 + "+")
+    print("| for i in range(3):               ")
+    print("|     print(i)                     ")
+    print("|     if i == 1:                   ")
+    print("|         print('Breaking!')       ")
+    print("|         break                    ")
+    print("| else:                            ")
+    print("|     print('This will NOT run')   ")
+    print("+" + "-" * 45 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 25 + "+")
+    print("| 0               ")
+    print("| 1               ")
+    print("| Breaking!       ")
+    print("+" + "-" * 25 + "+")
+    wait()
+
 def module_4():
     """Module 4: Functions - reusable code blocks with full examples"""
     print("📘 Module 4: Functions")
