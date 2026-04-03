@@ -1223,6 +1223,42 @@ def module_3():
     print("+" + "-" * 15 + "+")
     wait()
 
+        # 3.7 Infinite Loops (and How to Avoid Them)
+    print("\n3.7 Infinite Loops (and How to Avoid Them)")
+    print("An infinite loop never stops because the condition never becomes False.")
+    
+    print("\n❌ WRONG - This will run forever:")
+    print("+" + "-" * 35 + "+")
+    print("| i = 1                           ")
+    print("| while i <= 5:                   ")
+    print("|     print(i)                    ")
+    print("|     # Missing i += 1            ")
+    print("+" + "-" * 35 + "+")
+    
+    print("\n✅ CORRECT - Update the variable:")
+    print("+" + "-" * 35 + "+")
+    print("| i = 1                           ")
+    print("| while i <= 5:                   ")
+    print("|     print(i)                    ")
+    print("|     i += 1    # crucial         ")
+    print("+" + "-" * 35 + "+")
+    
+    print("\nHow to stop an infinite loop:")
+    print("    - Press Ctrl + C in the terminal")
+    print("    - Close the terminal")
+    print("    - Use a break statement with a condition")
+    
+    print("\nSafe infinite loop example (with break):")
+    print("+" + "-" * 55 + "+")
+    print("| while True:                                         ")
+    print("|     user_input = input('Type \"quit\" to exit: ')    ")
+    print("|     if user_input == 'quit':                        ")
+    print("|         break                                       ")
+    print("+" + "-" * 55 + "+")
+    
+    print("\n⚠️ Warning: Always ensure your loop has a way to stop!")
+    wait()
+
 def module_4():
     """Module 4: Functions - reusable code blocks with full examples"""
     print("📘 Module 4: Functions")
