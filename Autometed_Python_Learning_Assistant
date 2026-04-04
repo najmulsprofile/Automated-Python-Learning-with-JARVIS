@@ -1302,7 +1302,7 @@ def module_3():
     print("+" + "-" * 25 + "+")
     wait()
 
-        # 3.8 Advanced Loop Techniques 
+     # 3.8 Advanced Loop Techniques 
     print("\n🔹 enumerate() function:")
     print("Adds a counter to an iterable. Returns both index and value.")
     
@@ -1388,6 +1388,20 @@ def module_3():
     print("| List comprehension (1 line):                ")
     print("| squares = [x**2 for x in range(1, 6)]       ")
     print("+" + "-" * 50 + "+")
+    wait()
+
+    # 3.9 Common Mistakes (Avoid These!)
+    print("\n3.9 Common Mistakes (Avoid These!)")
+    print("+" + "-" * 130 + "+")
+    print("| Mistake                                      | Why It's Wrong                           | Fix                                       ")
+    print("+" + "-" * 130 + "+")
+    print("| for i in range(5)                            | Missing colon after loop header          | Add colon: for i in range(5):             ")
+    print("| Wrong indentation inside loop                | Python uses indentation for blocks       | Use 4 spaces consistently                 ")
+    print("| Infinite loop (no update)                    | Condition never becomes False            | Update variable inside loop               ")
+    print("| Using = instead of == in while condition     | Assignment, not comparison               | Use == for comparison                     ")
+    print("| Modifying list while iterating               | Unexpected behavior or error             | Iterate over a copy: for item in list[:]  ")
+    print("| Off-by-one errors in range()                 | range(5) gives 0-4, not 1-5              | Use range(1,6) for 1 to 5                 ")
+    print("+" + "-" * 130 + "+")
     wait()
 
 def module_4():
