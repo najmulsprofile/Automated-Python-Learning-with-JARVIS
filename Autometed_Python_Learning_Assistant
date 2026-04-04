@@ -1302,6 +1302,70 @@ def module_3():
     print("+" + "-" * 25 + "+")
     wait()
 
+        # 3.8 Advanced Loop Techniques 
+    print("\n🔹 enumerate() function:")
+    print("Adds a counter to an iterable. Returns both index and value.")
+    
+    print("\nCode:")
+    print("+" + "-" * 45 + "+")
+    print("| fruits = ['apple', 'banana', 'mango']")
+    print("| for index, fruit in enumerate(fruits):")
+    print("|     print(f'Index {index}: {fruit}')")
+    print("+" + "-" * 45 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 30 + "+")
+    print("| Index 0: apple        ")
+    print("| Index 1: banana       ")
+    print("| Index 2: mango        ")
+    print("+" + "-" * 30 + "+")
+    
+    print("\n🔹 Looping through dictionaries:")
+    print("Code:")
+    print("+" + "-" * 45 + "+")
+    print("| student = {'name': 'Najmul', 'age': 20, 'city': 'Dhaka'}")
+    print("+" + "-" * 45 + "+")
+    
+    print("\nLoop through keys:")
+    print("+" + "-" * 25 + "+")
+    print("| for key in student:   ")
+    print("|     print(key)        ")
+    print("+" + "-" * 25 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 20 + "+")
+    print("| name       ")
+    print("| age        ")
+    print("| city       ")
+    print("+" + "-" * 20 + "+")
+    
+    print("\nLoop through values:")
+    print("+" + "-" * 35 + "+")
+    print("| for value in student.values():")
+    print("|     print(value)               ")
+    print("+" + "-" * 35 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 20 + "+")
+    print("| Najmul     ")
+    print("| 20         ")
+    print("| Dhaka      ")
+    print("+" + "-" * 20 + "+")
+    
+    print("\nLoop through key-value pairs:")
+    print("+" + "-" * 45 + "+")
+    print("| for key, value in student.items():")
+    print("|     print(f'{key} -> {value}')     ")
+    print("+" + "-" * 45 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 25 + "+")
+    print("| name -> Najmul    ")
+    print("| age -> 20         ")
+    print("| city -> Dhaka     ")
+    print("+" + "-" * 25 + "+")
+    wait()
+
 def module_4():
     """Module 4: Functions - reusable code blocks with full examples"""
     print("📘 Module 4: Functions")
