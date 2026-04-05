@@ -1404,6 +1404,44 @@ def module_3():
     print("+" + "-" * 130 + "+")
     wait()
 
+        # 3.10 Practice Problems (Try Yourself!)
+    print("\n3.10 Practice Problems (Try Yourself!)")
+    
+    print("\n🔹 Problem 1 (Beginner):")
+    print("Print all numbers from 1 to 100 using a for loop.")
+    
+    print("\n🔹 Problem 2 (Beginner):")
+    print("Print the sum of all numbers from 1 to 50 using a while loop.")
+    
+    print("\n🔹 Problem 3 (Intermediate):")
+    print("Print the multiplication table of any number input by the user.")
+    print("Example: If user enters 5, print 5x1=5, 5x2=10... up to 5x10=50")
+    
+    print("\n🔹 Problem 4 (Intermediate):")
+    print("Check if a number is prime or not using a loop.")
+    
+    print("\n🔹 Problem 5 (Intermediate):")
+    print("Print the Fibonacci sequence up to n terms.")
+    print("Example: n=7 → 0, 1, 1, 2, 3, 5, 8")
+    
+    print("\n🔹 Problem 6 (Advanced):")
+    print("Create a pyramid pattern using nested loops:")
+    print("    *")
+    print("   ***")
+    print("  *****")
+    print(" *******")
+    
+    print("\n🔹 Problem 7 (Advanced):")
+    print("Find the factorial of a number using both for and while loops.")
+    
+    print("\n🔹 Problem 8 (Advanced):")
+    print("Use enumerate() to print the index and character of each letter in 'Python'.")
+    
+    print("\n" + "=" * 50)
+    print("💡 HINT: Try each problem yourself before looking at solutions!")
+    print("=" * 50)
+    wait()
+
 def module_4():
     """Module 4: Functions - reusable code blocks with full examples"""
     print("📘 Module 4: Functions")
