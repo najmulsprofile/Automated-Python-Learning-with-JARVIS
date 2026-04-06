@@ -1483,6 +1483,32 @@ def module_3():
     print("+" + "-" * 53 + "+")
     wait()
 
+        # 3.12 Key Takeaways
+    print("\n3.12 Key Takeaways")
+    print("+" + "-" * 65 + "+")
+    print("| ✅ Loops REPEAT code blocks to save time and reduce duplication.      ")
+    print("| ✅ Use 'for' loop when you KNOW how many times to repeat.             ")
+    print("| ✅ Use 'while' loop when you DON'T KNOW how many times to repeat.     ")
+    print("| ✅ range() generates sequences of numbers for loops.                  ")
+    print("| ✅ break exits a loop immediately.                                    ")
+    print("| ✅ continue skips to the next iteration.                              ")
+    print("| ✅ pass does nothing (placeholder).                                   ")
+    print("| ✅ Nested loops are loops inside loops.                               ")
+    print("| ✅ ALWAYS ensure your loop has a way to stop (avoid infinite loops).  ")
+    print("| ✅ List comprehension is a faster, one-line way to create lists.      ")
+    print("| ✅ Practice with patterns, number sequences, and list operations.     ")
+    print("+" + "-" * 65 + "+")
+    
+    print("\n📢 Final Words")
+    print("+" + "-" * 53 + "+")
+    print("| For loop = Fixed number of repetitions             ")
+    print("| While loop = Condition-based repetition            ")
+    print("| Nested loop = Loop inside a loop                   ")
+    print("| Break & Continue = Emergency controls              ")
+    print("| Module 3 ends here. Next: Module 4 - Functions     ")
+    print("+" + "-" * 53 + "+")
+    wait()
+
 def module_4():
     """Module 4: Functions - reusable code blocks with full examples"""
     print("📘 Module 4: Functions")
