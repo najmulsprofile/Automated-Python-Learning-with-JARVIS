@@ -1509,6 +1509,11 @@ def module_3():
     print("+" + "-" * 53 + "+")
     wait()
 
+    if progress["completed_modules"] < 3:
+        progress["completed_modules"] = 3
+    show_progress()
+    wait()
+
 def module_4():
     """Module 4: Functions - reusable code blocks with full examples"""
     print("📘 Module 4: Functions")
