@@ -1556,6 +1556,70 @@ def module_4():
     print("🔹 User-defined functions - Created by programmers for specific needs")
     wait()
 
+    # 4.2 Defining and Calling Functions
+    print("\n4.2 Defining and Calling Functions")
+    
+    print("\nSyntax for defining a function:")
+    print("def function_name():")
+    print("    # code block")
+    
+    print("\nSyntax for calling a function:")
+    print("function_name()")
+    
+    print("\nExample 1: Simple function (no parameter, no return)")
+    print("Code:")
+    print("+" + "-" * 40 + "+")
+    print("| def greet():                         ")
+    print("|     print('Hello! Welcome to Python.')")
+    print("|                                       ")
+    print("| greet()                               ")
+    print("| greet()                               ")
+    print("+" + "-" * 40 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 35 + "+")
+    print("| Hello! Welcome to Python.   ")
+    print("| Hello! Welcome to Python.   ")
+    print("+" + "-" * 35 + "+")
+    
+    print("\nExample 2: Function with one parameter")
+    print("Code:")
+    print("+" + "-" * 45 + "+")
+    print("| def greet_user(name):                ")
+    print("|     print(f'Hello {name}! Welcome')  ")
+    print("|                                       ")
+    print("| greet_user('Najmul')                 ")
+    print("| greet_user('Noman')                  ")
+    print("| greet_user('Fatema')                 ")
+    print("+" + "-" * 45 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 40 + "+")
+    print("| Hello Najmul! Welcome        ")
+    print("| Hello Noman! Welcome         ")
+    print("| Hello Fatema! Welcome        ")
+    print("+" + "-" * 40 + "+")
+    
+    print("\nExample 3: Function with multiple parameters")
+    print("Code:")
+    print("+" + "-" * 35 + "+")
+    print("| def add(a, b):               ")
+    print("|     result = a + b           ")
+    print("|     print(f'{a} + {b} = {result}')")
+    print("|                              ")
+    print("| add(5, 3)                    ")
+    print("| add(10, 7)                   ")
+    print("| add(20, 15)                  ")
+    print("+" + "-" * 35 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 25 + "+")
+    print("| 5 + 3 = 8        ")
+    print("| 10 + 7 = 17      ")
+    print("| 20 + 15 = 35     ")
+    print("+" + "-" * 25 + "+")
+    wait()
+
 def module_5():
     """Module 5: File I/O - reading and writing files complete"""
     print("📘 Module 5: File I/O")
