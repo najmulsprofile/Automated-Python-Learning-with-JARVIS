@@ -1515,8 +1515,45 @@ def module_3():
     wait()
 
 def module_4():
-    """Module 4: Functions - reusable code blocks with full examples"""
-    print("📘 Module 4: Functions")
+    # 4.0 Introduction
+    print("📘 Module 4: Functions in Python")
+    print("4.0 Introduction (Module Overview)")
+    print("In this module, we will learn:")
+    print("    - What functions are and why they are necessary")
+    print("    - How to define and call functions")
+    print("    - Function parameters and arguments")
+    print("    - Return values")
+    print("    - Different types of arguments (positional, keyword, default, variable-length)")
+    print("    - Scope of variables (local vs global)")
+    print("    - Lambda functions (anonymous functions)")
+    print("    - Recursion (function calling itself)")
+    print("    - Built-in functions vs user-defined functions")
+    print("    - Docstrings (documenting functions)")
+    print("    - Best practices for writing functions")
+    print("-" * 50)
+    wait()
+
+    # 4.1 What is a Function?
+    print("\n4.1 What is a Function?")
+    print("A function is a reusable block of code that performs a specific task.")
+    print("Simple Explanation: A function is like a recipe. You write it once, use it many times.")
+    
+    print("\nReal-life example:")
+    print("+" + "-" * 60 + "+")
+    print("| Without function: Calculate area 10 times → 100 lines of code     ")
+    print("| With function: Write formula once, call 10 times → 11 lines      ")
+    print("+" + "-" * 60 + "+")
+    
+    print("\nWhy functions matter:")
+    print("    - Reusability - Write once, use many times")
+    print("    - Modularity - Break complex problems into smaller pieces")
+    print("    - Readability - Code becomes cleaner and easier to understand")
+    print("    - Maintainability - Fix a bug in one place, not everywhere")
+    print("    - Testing - Test each function separately")
+    
+    print("\nTwo types of functions in Python:")
+    print("🔹 Built-in functions - Already available (print(), len(), input(), etc.)")
+    print("🔹 User-defined functions - Created by programmers for specific needs")
     wait()
 
 def module_5():
