@@ -1832,6 +1832,62 @@ def module_4():
     print("+" + "-" * 30 + "+")
     wait()
 
+    # 4.6 Lambda Functions (Anonymous Functions)
+    print("\n4.6 Lambda Functions (Anonymous Functions)")
+    print("Lambda functions are small, one-line functions without a name.")
+    
+    print("\nSyntax:")
+    print("lambda arguments: expression")
+    
+    print("\nExample 1: Normal function vs Lambda")
+    print("Code:")
+    print("+" + "-" * 40 + "+")
+    print("| # Normal function                    ")
+    print("| def square(x):                       ")
+    print("|     return x ** 2                    ")
+    print("|                                       ")
+    print("| # Lambda function                    ")
+    print("| square_lambda = lambda x: x ** 2     ")
+    print("|                                       ")
+    print("| print(square(5))                     ")
+    print("| print(square_lambda(5))              ")
+    print("+" + "-" * 40 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 20 + "+")
+    print("| 25         ")
+    print("| 25         ")
+    print("+" + "-" * 20 + "+")
+    
+    print("\nExample 2: Lambda with multiple arguments")
+    print("Code:")
+    print("+" + "-" * 35 + "+")
+    print("| add_lambda = lambda a, b: a + b     ")
+    print("| print(add_lambda(5, 3))             ")
+    print("+" + "-" * 35 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 20 + "+")
+    print("| 8             ")
+    print("+" + "-" * 20 + "+")
+    
+    print("\nExample 3: Lambda with map() and filter()")
+    print("Code:")
+    print("+" + "-" * 50 + "+")
+    print("| numbers = [1, 2, 3, 4, 5]                     ")
+    print("| squared = list(map(lambda x: x ** 2, numbers))")
+    print("| even_numbers = list(filter(lambda x: x % 2 == 0, numbers))")
+    print("| print(squared)                                 ")
+    print("| print(even_numbers)                            ")
+    print("+" + "-" * 50 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 35 + "+")
+    print("| [1, 4, 9, 16, 25]        ")
+    print("| [2, 4]                    ")
+    print("+" + "-" * 35 + "+")
+    wait()
+
 def module_5():
     """Module 5: File I/O - reading and writing files complete"""
     print("📘 Module 5: File I/O")
