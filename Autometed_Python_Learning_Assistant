@@ -2169,6 +2169,42 @@ def module_4():
     print("+" + "-" * 55 + "+")
     wait()
 
+    # 4.14 Key Takeaways
+    print("\n4.14 Key Takeaways")
+    print("+" + "-" * 65 + "+")
+    print("| ✅ Functions make code reusable, modular, and readable.        ")
+    print("| ✅ Use 'def' keyword to define a function.                     ")
+    print("| ✅ Use parentheses '()' to call a function.                    ")
+    print("| ✅ Parameters are variables in the function definition.        ")
+    print("| ✅ Arguments are actual values passed to the function.         ")
+    print("| ✅ 'return' sends a value back to the caller.                  ")
+    print("| ✅ Use '*args' for variable number of positional arguments.    ")
+    print("| ✅ Use '**kwargs' for variable number of keyword arguments.    ")
+    print("| ✅ Local variables exist only inside functions.                ")
+    print("| ✅ Use 'global' keyword to modify global variables.            ")
+    print("| ✅ Lambda functions are one-line anonymous functions.          ")
+    print("| ✅ Recursion is a function calling itself (needs base case).   ")
+    print("| ✅ Always document functions using docstrings.                 ")
+    print("| ✅ Keep functions small, focused, and well-named.              ")
+    print("+" + "-" * 65 + "+")
+    
+    print("\n📢 Final Words")
+    print("+" + "-" * 58 + "+")
+    print("| Function = Reusable code block                           ")
+    print("| Parameter = Variable in definition                       ")
+    print("| Argument = Value passed when calling                     ")
+    print("| Return = Output sent back to caller                      ")
+    print("| Scope = Where a variable can be accessed                 ")
+    print("| Lambda = Small anonymous function                        ")
+    print("| Recursion = Function calling itself                      ")
+    print("| Module 4 ends here. Next: Module 5 - File I/O 🚀         ")
+    print("+" + "-" * 58 + "+")
+    
+    if progress["completed_modules"] < 4:
+        progress["completed_modules"] = 4
+    show_progress()
+    wait()
+
 def module_5():
     """Module 5: File I/O - reading and writing files complete"""
     print("📘 Module 5: File I/O")
