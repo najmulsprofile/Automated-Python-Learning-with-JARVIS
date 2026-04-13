@@ -2086,6 +2086,46 @@ def module_4():
     print("+" + "-" * 132 + "+")
     wait()
 
+    # 4.12 Practice Problems (Try Yourself!)
+    print("\n4.12 Practice Problems (Try Yourself!)")
+    
+    print("\n🔹 Problem 1 (Beginner):")
+    print("Write a function called 'square()' that takes a number and returns its square.")
+    print("Example: square(5) → 25")
+    
+    print("\n🔹 Problem 2 (Beginner):")
+    print("Write a function called 'is_even()' that takes a number and returns True if even, False if odd.")
+    print("Example: is_even(4) → True, is_even(7) → False")
+    
+    print("\n🔹 Problem 3 (Intermediate):")
+    print("Write a function called 'calculate()' that takes two numbers and an operator (+, -, *, /).")
+    print("Example: calculate(10, 5, '+') → 15")
+    
+    print("\n🔹 Problem 4 (Intermediate):")
+    print("Write a function called 'find_max()' that takes any number of arguments (*args) and returns the largest.")
+    print("Example: find_max(3, 7, 2, 9, 1) → 9")
+    
+    print("\n🔹 Problem 5 (Intermediate):")
+    print("Write a function called 'create_profile()' that takes **kwargs and prints a profile.")
+    print("Example: create_profile(name='Najmul', age=20, city='Dhaka')")
+    
+    print("\n🔹 Problem 6 (Intermediate):")
+    print("Write a recursive function called 'sum_natural()' that returns sum of first n natural numbers.")
+    print("Example: sum_natural(5) → 15 (1+2+3+4+5)")
+    
+    print("\n🔹 Problem 7 (Advanced):")
+    print("Write a function called 'is_palindrome()' that checks if a string is a palindrome using recursion.")
+    print("Example: is_palindrome('radar') → True")
+    
+    print("\n🔹 Problem 8 (Advanced):")
+    print("Write a function called 'filter_list()' that takes a list and a function as arguments.")
+    print("Example: filter_list([1,2,3,4,5], lambda x: x > 2) → [3,4,5]")
+    
+    print("\n" + "=" * 50)
+    print("💡 HINT: Try each problem yourself before looking at solutions!")
+    print("=" * 50)
+    wait()
+
 def module_5():
     """Module 5: File I/O - reading and writing files complete"""
     print("📘 Module 5: File I/O")
