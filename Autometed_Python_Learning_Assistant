@@ -2282,6 +2282,69 @@ def module_5():
     print("\n⚠️ Important: Always close files to free system resources!")
     wait()
 
+    # 5.3 Reading from Files
+    print("\n5.3 Reading from Files")
+    
+    print("\n🔹 Method 1: read() - Reads entire file")
+    print("Code:")
+    print("+" + "-" * 40 + "+")
+    print("| file = open('sample.txt', 'r')     ")
+    print("| content = file.read()              ")
+    print("| print(content)                     ")
+    print("| file.close()                       ")
+    print("+" + "-" * 40 + "+")
+    
+    print("\nOutput (if sample.txt contains 'Hello World'):")
+    print("+" + "-" * 25 + "+")
+    print("| Hello World        ")
+    print("+" + "-" * 25 + "+")
+    
+    print("\n🔹 Method 2: readline() - Reads one line at a time")
+    print("Code:")
+    print("+" + "-" * 40 + "+")
+    print("| file = open('sample.txt', 'r')     ")
+    print("| line1 = file.readline()            ")
+    print("| line2 = file.readline()            ")
+    print("| file.close()                       ")
+    print("+" + "-" * 40 + "+")
+    
+    print("\nOutput (if sample.txt has 2 lines):")
+    print("+" + "-" * 40 + "+")
+    print("| Line 1: First line              ")
+    print("| Line 2: Second line             ")
+    print("+" + "-" * 40 + "+")
+    
+    print("\n🔹 Method 3: readlines() - Reads all lines into a list")
+    print("Code:")
+    print("+" + "-" * 45 + "+")
+    print("| file = open('sample.txt', 'r')     ")
+    print("| lines = file.readlines()           ")
+    print("| print(lines)                       ")
+    print("| file.close()                       ")
+    print("+" + "-" * 45 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 55 + "+")
+    print("| ['First line\\n', 'Second line\\n', 'Third line\\n'] ")
+    print("+" + "-" * 55 + "+")
+    
+    print("\n🔹 Method 4: Using a loop (most memory efficient)")
+    print("Code:")
+    print("+" + "-" * 45 + "+")
+    print("| file = open('sample.txt', 'r')     ")
+    print("| for line in file:                  ")
+    print("|     print(line.strip())            ")
+    print("| file.close()                       ")
+    print("+" + "-" * 45 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 25 + "+")
+    print("| First line       ")
+    print("| Second line      ")
+    print("| Third line       ")
+    print("+" + "-" * 25 + "+")
+    wait()
+
 def module_6():
     """Module 6: Exceptions - error handling with try-except complete"""
     print("📘 Module 6: Exceptions")
