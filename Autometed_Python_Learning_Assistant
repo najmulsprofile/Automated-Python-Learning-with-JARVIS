@@ -2345,6 +2345,33 @@ def module_5():
     print("+" + "-" * 25 + "+")
     wait()
 
+    # 5.4 Writing to Files
+    print("\n5.4 Writing to Files")
+    print("When you write to a file in 'w' mode:")
+    print("    - If file doesn't exist → Creates it")
+    print("    - If file exists → Deletes old content and writes new")
+    
+    print("\n🔹 Method 1: write() - Writes a string")
+    print("Code:")
+    print("+" + "-" * 55 + "+")
+    print("| file = open('output.txt', 'w')                    ")
+    print("| file.write('Hello, this is my first line.\\n')    ")
+    print("| file.write('This is the second line.')            ")
+    print("| file.close()                                      ")
+    print("+" + "-" * 55 + "+")
+    print("\nResult: Creates 'output.txt' with 2 lines.")
+    
+    print("\n🔹 Method 2: writelines() - Writes a list of strings")
+    print("Code:")
+    print("+" + "-" * 55 + "+")
+    print("| lines = ['Line 1\\n', 'Line 2\\n', 'Line 3\\n']    ")
+    print("| file = open('output.txt', 'w')                    ")
+    print("| file.writelines(lines)                            ")
+    print("| file.close()                                      ")
+    print("+" + "-" * 55 + "+")
+    print("\nResult: Creates file with 3 lines.")
+    wait()
+
 def module_6():
     """Module 6: Exceptions - error handling with try-except complete"""
     print("📘 Module 6: Exceptions")
