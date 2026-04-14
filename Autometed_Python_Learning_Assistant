@@ -2249,6 +2249,39 @@ def module_5():
     print("+" + "-" * 80 + "+")
     wait()
 
+    # 5.2 Opening and Closing Files
+    print("\n5.2 Opening and Closing Files")
+    print("To work with a file, you must first open it. After finishing, you close it.")
+    
+    print("\nSyntax for opening a file:")
+    print('file_object = open("filename.txt", "mode")')
+    
+    print("\nSyntax for closing a file:")
+    print("file_object.close()")
+    
+    print("\nCommon file modes:")
+    print("+" + "-" * 100 + "+")
+    print("| Mode | Description              | File must exist? | What happens                   ")
+    print("+" + "-" * 100 + "+")
+    print("| r    | Read (default)           | Yes              | Read from beginning            ")
+    print("| w    | Write                    | No               | Creates or overwrites          ")
+    print("| a    | Append                   | No               | Creates or adds at end         ")
+    print("| x    | Exclusive creation       | No               | Creates, error if exists       ")
+    print("| rb   | Read binary              | Yes              | Read binary data               ")
+    print("| wb   | Write binary             | No               | Write binary data              ")
+    print("+" + "-" * 100 + "+")
+    
+    print("\nExample 1: Opening and closing a file")
+    print("Code:")
+    print("+" + "-" * 45 + "+")
+    print("| file = open('sample.txt', 'r')   ")
+    print("| # Do something with the file     ")
+    print("| file.close()                     ")
+    print("+" + "-" * 45 + "+")
+    
+    print("\n⚠️ Important: Always close files to free system resources!")
+    wait()
+
 def module_6():
     """Module 6: Exceptions - error handling with try-except complete"""
     print("📘 Module 6: Exceptions")
