@@ -2372,6 +2372,64 @@ def module_5():
     print("\nResult: Creates file with 3 lines.")
     wait()
 
+    # 5.5 Appending to Files
+    print("\n5.5 Appending to Files")
+    print("Append mode ('a') adds new content at the END of the file without deleting existing content.")
+    
+    print("\nCode:")
+    print("+" + "-" * 50 + "+")
+    print("| file = open('log.txt', 'w')               ")
+    print("| file.write('First entry\\n')               ")
+    print("| file.close()                              ")
+    print("|                                            ")
+    print("| file = open('log.txt', 'a')               ")
+    print("| file.write('Second entry\\n')              ")
+    print("| file.write('Third entry\\n')               ")
+    print("| file.close()                              ")
+    print("+" + "-" * 50 + "+")
+    
+    print("\nResult (log.txt):")
+    print("+" + "-" * 30 + "+")
+    print("| First entry              ")
+    print("| Second entry             ")
+    print("| Third entry              ")
+    print("+" + "-" * 30 + "+")
+    wait()
+
+    # 5.6 Using 'with' Statement
+    print("\n5.6 Using 'with' Statement (Context Manager)")
+    print("The 'with' statement automatically closes the file for you - even if errors occur.")
+    print("This is the RECOMMENDED way.")
+    
+    print("\nSyntax:")
+    print('with open("filename.txt", "mode") as file:')
+    print("    # work with file")
+    print("    # no need to call close()")
+    
+    print("\nExample: Reading with 'with'")
+    print("Code:")
+    print("+" + "-" * 45 + "+")
+    print("| with open('sample.txt', 'r') as file:   ")
+    print("|     content = file.read()               ")
+    print("|     print(content)                      ")
+    print("| # File is automatically closed here     ")
+    print("+" + "-" * 45 + "+")
+    
+    print("\nExample: Writing with 'with'")
+    print("Code:")
+    print("+" + "-" * 50 + "+")
+    print("| with open('output.txt', 'w') as file:     ")
+    print("|     file.write('Hello World!\\n')          ")
+    print("|     file.write('This is safer!')          ")
+    print("| # No need to call close()                 ")
+    print("+" + "-" * 50 + "+")
+    
+    print("\n✅ Why 'with' is better:")
+    print("    - No need to remember to close files")
+    print("    - Automatically closes even if errors occur")
+    print("    - Cleaner, more readable code")
+    wait()
+
 def module_6():
     """Module 6: Exceptions - error handling with try-except complete"""
     print("📘 Module 6: Exceptions")
