@@ -2697,6 +2697,53 @@ def module_5():
     print("+" + "-" * 45 + "+")
     wait()
 
+    # 5.12 Common Mistakes (Avoid These!)
+    print("\n5.12 Common Mistakes (Avoid These!)")
+    print("+" + "-" * 128 + "+")
+    print("| Mistake                                      | Why It's Wrong                          | Fix                                      ")
+    print("+" + "-" * 128 + "+")
+    print("| Forgetting to close files                    | Wasted resources, data may not save     | Use 'with' statement                     ")
+    print("| Using wrong file mode                        | 'r' on non-existent file causes error   | Check file exists or use 'w'/'a'         ")
+    print("| Not handling file errors                     | Program crashes if file missing         | Use try-except or check existence        ")
+    print("| Using absolute paths                         | Code breaks on different computers      | Use relative paths or pathlib            ")
+    print("| Forgetting newline characters '\\n'           | Everything writes on one line           | Add '\\n' when needed                     ")
+    print("| Reading binary files as text                 | Corrupted data                          | Use 'rb' or 'wb' modes                   ")
+    print("| Not using newline='' with CSV on Windows     | Extra blank lines                       | Always add newline=''                    ")
+    print("+" + "-" * 128 + "+")
+    wait()
+
+    # 5.13 Practice Problems
+    print("\n5.13 Practice Problems (Try Yourself!)")
+    
+    print("\n🔹 Problem 1 (Beginner):")
+    print("Write a program that creates a file called 'myfile.txt' and writes 'Hello Python!' into it.")
+    
+    print("\n🔹 Problem 2 (Beginner):")
+    print("Write a program that reads the content of 'myfile.txt' and prints it to the screen.")
+    
+    print("\n🔹 Problem 3 (Intermediate):")
+    print("Write a program that asks the user for 5 names and saves them to a file called 'names.txt' (one per line).")
+    
+    print("\n🔹 Problem 4 (Intermediate):")
+    print("Write a program that reads 'names.txt' and displays all names that start with the letter 'A'.")
+    
+    print("\n🔹 Problem 5 (Intermediate):")
+    print("Write a program that reads a CSV file containing student marks and calculates the average.")
+    
+    print("\n🔹 Problem 6 (Intermediate):")
+    print("Write a program that stores a list of dictionaries (students) into a JSON file, then reads it back.")
+    
+    print("\n🔹 Problem 7 (Advanced):")
+    print("Write a program that copies all .txt files from one folder to another folder.")
+    
+    print("\n🔹 Problem 8 (Advanced):")
+    print("Write a program that counts the number of lines, words, and characters in a text file.")
+    
+    print("\n" + "=" * 50)
+    print("💡 HINT: Try each problem yourself before looking at solutions!")
+    print("=" * 50)
+    wait()
+
 def module_6():
     """Module 6: Exceptions - error handling with try-except complete"""
     print("📘 Module 6: Exceptions")
