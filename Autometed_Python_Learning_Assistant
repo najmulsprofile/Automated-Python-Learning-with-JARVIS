@@ -2830,10 +2830,67 @@ def module_5():
     wait()
 
 def module_6():
-    """Module 6: Exceptions - error handling with try-except complete"""
-    print("📘 Module 6: Exceptions")
+    # 6.0 Introduction
+    print("📘 Module 6: Exceptions (Error Handling)")
+    print("6.0 Introduction (Module Overview)")
+    print("In this module, we will learn:")
+    print("    - What exceptions are and why they matter")
+    print("    - Syntax errors vs runtime errors vs logical errors")
+    print("    - Common built-in exceptions")
+    print("    - try, except, else, finally blocks")
+    print("    - Handling multiple exceptions")
+    print("    - Catching specific exceptions")
+    print("    - The 'as' keyword (getting error details)")
+    print("    - Raising exceptions manually (raise keyword)")
+    print("    - Creating custom exceptions")
+    print("    - Exception hierarchy")
+    print("    - Best practices for error handling")
+    print("    - When to use exceptions vs when to avoid them")
+    print("    - Common mistakes")
+    print("    - Practice problems")
+    print("-" * 50)
     wait()
 
+    # 6.1 What are Exceptions?
+    print("\n6.1 What are Exceptions?")
+    print("An exception is an error that occurs during the execution of a program.")
+    print("Simple Explanation: Like following a recipe and realizing you don't have eggs.")
+    
+    print("\nWhy exceptions matter:")
+    print("    - Prevent crashes - Handle errors gracefully instead of crashing")
+    print("    - User-friendly - Show helpful messages instead of scary error codes")
+    print("    - Debugging - Understand what went wrong and where")
+    print("    - Robust code - Programs that handle errors are more reliable")
+    
+    print("\nThree types of errors:")
+    print("+" + "-" * 80 + "+")
+    print("| Error Type     | Description                          | Example                    ")
+    print("+" + "-" * 80 + "+")
+    print("| Syntax Error   | Code doesn't follow Python rules     | print 'hello'              ")
+    print("| Runtime Error  | Happens during execution (Exception) | 10 / 0                     ")
+    print("| Logical Error  | Code runs but gives wrong result     | Using + instead of -       ")
+    print("+" + "-" * 80 + "+")
+    wait()
+
+    # 6.2 Common Built-in Exceptions
+    print("\n6.2 Common Built-in Exceptions")
+    print("+" + "-" * 90 + "+")
+    print("| Exception           | When it occurs                         | Example                        ")
+    print("+" + "-" * 90 + "+")
+    print("| ZeroDivisionError   | Dividing by zero                       | 10 / 0                         ")
+    print("| NameError           | Variable not defined                   | print(x) where x doesn't exist ")
+    print("| TypeError           | Wrong data type operation              | '2' + 2                        ")
+    print("| ValueError          | Wrong value (correct type, wrong value)| int('hello')                   ")
+    print("| IndexError          | List index out of range                | [1,2,3][5]                     ")
+    print("| KeyError            | Dictionary key not found               | {'a':1}['b']                   ")
+    print("| FileNotFoundError   | File doesn't exist                     | open('missing.txt')            ")
+    print("| AttributeError      | Object doesn't have attribute          | 'hello'.append()               ")
+    print("| ImportError         | Module not found                       | import something               ")
+    print("| KeyboardInterrupt   | User presses Ctrl+C                    | User interrupts program        ")
+    print("+" + "-" * 90 + "+")
+    wait()
+
+    
 def module_7():
     """Module 7: Libraries & Modules - importing and creating modules complete"""
     print("📘 Module 7: Libraries & Modules")
