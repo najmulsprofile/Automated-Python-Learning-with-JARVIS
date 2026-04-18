@@ -2958,6 +2958,41 @@ def module_6():
     print("+" + "-" * 40 + "+")
     wait()
 
+
+    # 6.4 The else Block
+    print("\n6.4 The else Block")
+    print("The 'else' block runs ONLY if no exception occurs in the try block.")
+    
+    print("\nSyntax:")
+    print("try:")
+    print("    # Code that might cause exception")
+    print("except:")
+    print("    # Runs if exception occurs")
+    print("else:")
+    print("    # Runs ONLY if NO exception occurs")
+    
+    print("\nExample:")
+    print("Code:")
+    print("+" + "-" * 55 + "+")
+    print("| try:                                                ")
+    print("|     num = int(input('Enter a number: '))            ")
+    print("|     result = 10 / num                               ")
+    print("| except ZeroDivisionError:                           ")
+    print("|     print('Cannot divide by zero!')                 ")
+    print("| except ValueError:                                  ")
+    print("|     print('Invalid number!')                        ")
+    print("| else:                                               ")
+    print("|     print(f'Success! Result: {result}')             ")
+    print("|     print('No errors occurred!')                    ")
+    print("+" + "-" * 55 + "+")
+    
+    print("\nOutput (if user enters 5):")
+    print("+" + "-" * 45 + "+")
+    print("| Success! Result: 2.0                 ")
+    print("| No errors occurred!                  ")
+    print("+" + "-" * 45 + "+")
+    wait()
+
         # 6.6 Handling Multiple Exceptions
     print("\n6.6 Handling Multiple Exceptions")
     
@@ -3109,39 +3144,6 @@ def module_6():
     print("+" + "-" * 73 + "+")
     wait()
 
-    # 6.4 The else Block
-    print("\n6.4 The else Block")
-    print("The 'else' block runs ONLY if no exception occurs in the try block.")
-    
-    print("\nSyntax:")
-    print("try:")
-    print("    # Code that might cause exception")
-    print("except:")
-    print("    # Runs if exception occurs")
-    print("else:")
-    print("    # Runs ONLY if NO exception occurs")
-    
-    print("\nExample:")
-    print("Code:")
-    print("+" + "-" * 55 + "+")
-    print("| try:                                                ")
-    print("|     num = int(input('Enter a number: '))            ")
-    print("|     result = 10 / num                               ")
-    print("| except ZeroDivisionError:                           ")
-    print("|     print('Cannot divide by zero!')                 ")
-    print("| except ValueError:                                  ")
-    print("|     print('Invalid number!')                        ")
-    print("| else:                                               ")
-    print("|     print(f'Success! Result: {result}')             ")
-    print("|     print('No errors occurred!')                    ")
-    print("+" + "-" * 55 + "+")
-    
-    print("\nOutput (if user enters 5):")
-    print("+" + "-" * 45 + "+")
-    print("| Success! Result: 2.0                 ")
-    print("| No errors occurred!                  ")
-    print("+" + "-" * 45 + "+")
-    wait()
 
 
 def module_7():
