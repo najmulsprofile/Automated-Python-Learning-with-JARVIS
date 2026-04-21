@@ -3787,6 +3787,75 @@ def module_7():
     print("+" + "-" * 48 + "+")
     wait()
 
+        # 7.9 Exploring Module Contents
+    print("\n7.9 Exploring Module Contents")
+    
+    print("\n🔹 Using dir() - List all attributes of a module")
+    print("Code:")
+    print("+" + "-" * 45 + "+")
+    print("| import math                          ")
+    print("| print(dir(math)[:8])  # First 8 items")
+    print("+" + "-" * 45 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 85 + "+")
+    print("| ['__doc__', '__loader__', '__name__', '__package__', 'acos', 'acosh', 'asin', 'asinh'] ")
+    print("+" + "-" * 85 + "+")
+    
+    print("\n🔹 Using help() - Get documentation")
+    print("Code:")
+    print("+" + "-" * 35 + "+")
+    print("| import math          ")
+    print("| help(math.sqrt)      ")
+    print("+" + "-" * 35 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 55 + "+")
+    print("| Help on built-in function sqrt in module math:      ")
+    print("|                                                     ")
+    print("| sqrt(x, /)                                          ")
+    print("|     Return the square root of x.                    ")
+    print("+" + "-" * 55 + "+")
+    wait()
+
+    # 7.10 Creating Packages
+    print("\n7.10 Creating Packages")
+    print("A package is a directory containing multiple modules and __init__.py file.")
+    
+    print("\nPackage Structure:")
+    print("+" + "-" * 40 + "+")
+    print("| my_package/                           ")
+    print("|     ├── __init__.py                   ")
+    print("|     ├── math_utils.py                 ")
+    print("|     ├── string_utils.py               ")
+    print("|     └── list_utils.py                 ")
+    print("+" + "-" * 40 + "+")
+    
+    print("\nExample math_utils.py:")
+    print("+" + "-" * 45 + "+")
+    print("| # math_utils.py                           ")
+    print("| def add(a, b):                            ")
+    print("|     return a + b                          ")
+    print("|                                           ")
+    print("| def multiply(a, b):                       ")
+    print("|     return a * b                          ")
+    print("+" + "-" * 45 + "+")
+    
+    print("\nUsing the package:")
+    print("Code:")
+    print("+" + "-" * 45 + "+")
+    print("| from my_package import math_utils        ")
+    print("| print(math_utils.add(5, 3))              ")
+    print("| print(math_utils.multiply(4, 5))         ")
+    print("+" + "-" * 45 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 25 + "+")
+    print("| 8                    ")
+    print("| 20                   ")
+    print("+" + "-" * 25 + "+")
+    wait()
+
 def module_8():
     """Module 8: Regular Expressions - pattern matching with regex complete"""
     print("📘 Module 8: Regular Expressions")
