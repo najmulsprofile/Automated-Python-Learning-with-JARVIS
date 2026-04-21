@@ -3919,6 +3919,20 @@ def module_7():
     print("+" + "-" * 60 + "+")
     wait()
 
+        # 7.13 Common Mistakes (Avoid These!)
+    print("\n7.13 Common Mistakes (Avoid These!)")
+    print("+" + "-" * 130 + "+")
+    print("| Mistake                                      | Why It's Wrong                          | Fix                                      ")
+    print("+" + "-" * 130 + "+")
+    print("| from module import *                         | Pollutes namespace                      | Import specific items                    ")
+    print("| Circular imports                             | Causes ImportError                      | Restructure code                         ")
+    print("| Naming file same as module                   | Overrides built-in module               | Use different name                       ")
+    print("| Forgetting to install external library       | ModuleNotFoundError                     | Run 'pip install library'                ")
+    print("| Not using virtual environments               | Version conflicts between projects      | Use venv for each project                ")
+    print("| Placing imports inside functions             | Slows down execution                    | Put imports at top                       ")
+    print("+" + "-" * 130 + "+")
+    wait()
+
 def module_8():
     """Module 8: Regular Expressions - pattern matching with regex complete"""
     print("📘 Module 8: Regular Expressions")
