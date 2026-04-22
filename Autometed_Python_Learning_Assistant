@@ -3933,6 +3933,59 @@ def module_7():
     print("+" + "-" * 130 + "+")
     wait()
 
+        # 7.14 Practice Problems (Try Yourself!)
+    print("\n7.14 Practice Problems (Try Yourself!)")
+    
+    print("\n🔹 Problem 1 (Beginner):")
+    print("Write a program that imports the 'math' module and calculates:")
+    print("    - Square root of 144")
+    print("    - Sine of 90 degrees")
+    print("    - Value of pi rounded to 2 decimal places")
+    
+    print("\n🔹 Problem 2 (Beginner):")
+    print("Use the 'random' module to:")
+    print("    - Generate a random number between 1 and 100")
+    print("    - Choose a random color from a list of colors")
+    print("    - Shuffle a list of numbers 1 to 10")
+    
+    print("\n🔹 Problem 3 (Beginner):")
+    print("Use the 'datetime' module to:")
+    print("    - Print today's date")
+    print("    - Print the current time")
+    print("    - Calculate the date 100 days from today")
+    
+    print("\n🔹 Problem 4 (Intermediate):")
+    print("Create your own module called 'calculator.py' with functions:")
+    print("    add, subtract, multiply, divide")
+    print("Import and use it in another program.")
+    
+    print("\n🔹 Problem 5 (Intermediate):")
+    print("Use the 'os' module to:")
+    print("    - List all files in the current directory")
+    print("    - Create a new folder called 'backup'")
+    print("    - Check if a file called 'data.txt' exists")
+    
+    print("\n🔹 Problem 6 (Intermediate):")
+    print("Write a program that uses 'random' and 'datetime' to generate a random date in the year 2024.")
+    
+    print("\n🔹 Problem 7 (Advanced):")
+    print("Create a package called 'shapes' with modules:")
+    print("    - circle.py (area, circumference)")
+    print("    - rectangle.py (area, perimeter)")
+    print("    - triangle.py (area)")
+    print("Import and use all functions.")
+    
+    print("\n🔹 Problem 8 (Advanced):")
+    print("Use the 'sys' module to:")
+    print("    - Print the Python version")
+    print("    - Print the number of command-line arguments")
+    print("    - Print the module search path")
+    
+    print("\n" + "=" * 50)
+    print("💡 HINT: Try each problem yourself before looking at solutions!")
+    print("=" * 50)
+    wait()
+
 def module_8():
     """Module 8: Regular Expressions - pattern matching with regex complete"""
     print("📘 Module 8: Regular Expressions")
