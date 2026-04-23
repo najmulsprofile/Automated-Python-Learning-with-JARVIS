@@ -4202,6 +4202,78 @@ def module_8():
     print("+" + "-" * 30 + "+")
     wait()
 
+        # 8.5 Character Classes
+    print("\n8.5 Character Classes")
+    
+    print("\nBasic Character Classes:")
+    print("+" + "-" * 80 + "+")
+    print("| Pattern      | Meaning                          | Example                ")
+    print("+" + "-" * 80 + "+")
+    print("| [abc]        | a, b, or c                       | [aeiou] = any vowel    ")
+    print("| [a-z]        | Any lowercase letter             | [a-z] = a to z         ")
+    print("| [A-Z]        | Any uppercase letter             | [A-Z] = A to Z         ")
+    print("| [0-9]        | Any digit                        | [0-9] = 0 to 9         ")
+    print("| [a-zA-Z]     | Any letter (case-insensitive)    | Any letter             ")
+    print("| [a-zA-Z0-9]  | Any letter or digit              | Alphanumeric           ")
+    print("| [^abc]       | NOT a, b, or c                   | [^aeiou] = consonant   ")
+    print("+" + "-" * 80 + "+")
+    
+    print("\nPredefined Character Classes (Shorthand):")
+    print("+" + "-" * 75 + "+")
+    print("| Shorthand  | Meaning                        | Equivalent             ")
+    print("+" + "-" * 75 + "+")
+    print("| \\d        | Any digit                      | [0-9]                  ")
+    print("| \\D        | Any non-digit                  | [^0-9]                 ")
+    print("| \\w        | Word char (letter,digit,_)     | [a-zA-Z0-9_]           ")
+    print("| \\W        | Non-word char                  | [^a-zA-Z0-9_]          ")
+    print("| \\s        | Any whitespace                 | [ \\t\\n\\r\\f\\v]     ")
+    print("| \\S        | Non-whitespace                 | [^ \\t\\n\\r\\f\\v]    ")
+    print("| \\b        | Word boundary                  | Beginning/end of word  ")
+    print("| \\B        | Not a word boundary            | Inside a word          ")
+    print("+" + "-" * 75 + "+")
+    wait()
+
+    # 8.6 Anchors
+    print("\n8.6 Anchors")
+    print("Anchors don't match characters - they match positions.")
+    
+    print("\nAnchor Table:")
+    print("+" + "-" * 40 + "+")
+    print("| Anchor | Meaning                  ")
+    print("+" + "-" * 40 + "+")
+    print("| ^      | Start of string          ")
+    print("| $      | End of string            ")
+    print("| \\b     | Word boundary            ")
+    print("| \\B     | Not a word boundary      ")
+    print("+" + "-" * 40 + "+")
+    wait()
+
+    # 8.7 Groups and Capturing
+    print("\n8.7 Groups and Capturing")
+    print("Parentheses () create groups that capture matched text.")
+    
+    print("\nExample: Basic grouping")
+    print("Code:")
+    print("+" + "-" * 55 + "+")
+    print("| import re                               ")
+    print("| pattern = r'(\\d{3})-(\\d{3})-(\\d{4})' ")
+    print("| text = 'My phone is 123-456-7890'       ")
+    print("| match = re.search(pattern, text)        ")
+    print("| print(f'Full: {match.group(0)}')        ")
+    print("| print(f'Area: {match.group(1)}')        ")
+    print("| print(f'Prefix: {match.group(2)}')      ")
+    print("| print(f'Line: {match.group(3)}')        ")
+    print("+" + "-" * 55 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 40 + "+")
+    print("| Full: 123-456-7890           ")
+    print("| Area: 123                    ")
+    print("| Prefix: 456                  ")
+    print("| Line: 7890                   ")
+    print("+" + "-" * 40 + "+")
+    wait()
+
 def module_9():
     """Module 9: OOP - classes, objects, inheritance, polymorphism complete"""
     print("📘 Module 9: OOP")
