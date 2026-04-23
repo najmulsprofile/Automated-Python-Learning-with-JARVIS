@@ -4069,8 +4069,52 @@ def module_7():
     wait()
 
 def module_8():
-    """Module 8: Regular Expressions - pattern matching with regex complete"""
-    print("📘 Module 8: Regular Expressions")
+    # 8.0 Introduction
+    print("📘 Module 8: Regular Expressions (Regex)")
+    print("8.0 Introduction (Module Overview)")
+    print("In this module, we will learn:")
+    print("    - What Regular Expressions are and why they are necessary")
+    print("    - When to use regex vs string methods")
+    print("    - The 're' module in Python")
+    print("    - Basic patterns (literals, metacharacters)")
+    print("    - Character classes ([abc], [a-z], [^abc])")
+    print("    - Predefined character classes (\\d, \\w, \\s, \\D, \\W, \\S)")
+    print("    - Quantifiers (*, +, ?, {n}, {n,m})")
+    print("    - Anchors (^, $, \\b, \\B)")
+    print("    - Groups and capturing ( (), (?:) )")
+    print("    - Alternation (|) – OR operator")
+    print("    - Escape sequences (\\.)")
+    print("    - Common re methods (match, search, findall, finditer, sub, split, compile)")
+    print("    - Flags (re.IGNORECASE, re.MULTILINE, re.DOTALL)")
+    print("    - Greedy vs non-greedy matching")
+    print("    - Real-world examples (email, phone, URL validation)")
+    print("    - Common mistakes")
+    print("    - Practice problems")
+    print("-" * 50)
+    wait()
+
+    # 8.1 What are Regular Expressions?
+    print("\n8.1 What are Regular Expressions?")
+    print("A Regular Expression (regex) is a sequence of characters that forms a search pattern.")
+    print("Simple Explanation: Like a super-powered search bar that understands patterns.")
+    
+    print("\nWhy regex matters:")
+    print("    - Powerful text searching - Find complex patterns quickly")
+    print("    - Data validation - Check if email, phone number, etc. is valid")
+    print("    - Data extraction - Pull specific information from text")
+    print("    - Text replacement - Replace patterns across large documents")
+    print("    - Cleaning data - Remove unwanted characters")
+    
+    print("\nWhen to use regex vs string methods:")
+    print("+" + "-" * 75 + "+")
+    print("| Use Regex For                          | Use String Methods For         ")
+    print("+" + "-" * 75 + "+")
+    print("| Email validation                       | Simple substring check         ")
+    print("| Phone number extraction                | Replace exact word             ")
+    print("| Finding all URLs                       | Split by simple delimiter      ")
+    print("| Password validation                    | Count occurrences              ")
+    print("| Log file parsing                       | Strip whitespace               ")
+    print("+" + "-" * 75 + "+")
     wait()
 
 def module_9():
