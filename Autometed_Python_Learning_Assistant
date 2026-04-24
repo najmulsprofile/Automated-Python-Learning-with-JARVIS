@@ -4366,6 +4366,33 @@ def module_8():
     print("+" + "-" * 40 + "+")
     wait()
 
+        # 8.10 Regex Flags
+    print("\n8.10 Regex Flags")
+    
+    print("\nFlag Table:")
+    print("+" + "-" * 70 + "+")
+    print("| Flag              | Short | Description                           ")
+    print("+" + "-" * 70 + "+")
+    print("| re.IGNORECASE     | re.I  | Case-insensitive matching             ")
+    print("| re.MULTILINE      | re.M  | ^ and $ match start/end of each line  ")
+    print("| re.DOTALL         | re.S  | Dot (.) matches newline as well       ")
+    print("| re.VERBOSE        | re.X  | Allows comments and whitespace        ")
+    print("+" + "-" * 70 + "+")
+    
+    print("\n🔹 re.IGNORECASE Example")
+    print("Code:")
+    print("+" + "-" * 55 + "+")
+    print("| import re                               ")
+    print("| text = 'Python PYTHON python'           ")
+    print("| print(re.findall('python', text, re.IGNORECASE))")
+    print("+" + "-" * 55 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 50 + "+")
+    print("| ['Python', 'PYTHON', 'python']         ")
+    print("+" + "-" * 50 + "+")
+    wait()
+
 def module_9():
     """Module 9: OOP - classes, objects, inheritance, polymorphism complete"""
     print("📘 Module 9: OOP")
