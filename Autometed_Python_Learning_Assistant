@@ -4393,6 +4393,72 @@ def module_8():
     print("+" + "-" * 50 + "+")
     wait()
 
+        # 8.11 Greedy vs Non-Greedy Matching
+    print("\n8.11 Greedy vs Non-Greedy Matching")
+    print("By default, quantifiers are GREEDY - they match as much as possible.")
+    
+    print("\n🔹 Greedy (default) - matches as much as possible")
+    print("Code:")
+    print("+" + "-" * 55 + "+")
+    print("| import re                               ")
+    print("| text = '<h1>Title</h1><p>Paragraph</p>' ")
+    print("| pattern = '<.*>'  # Greedy              ")
+    print("| match = re.search(pattern, text)        ")
+    print("| print(f'Greedy: {match.group()}')       ")
+    print("+" + "-" * 55 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 55 + "+")
+    print("| Greedy: <h1>Title</h1><p>Paragraph</p>         ")
+    print("+" + "-" * 55 + "+")
+    
+    print("\n🔹 Non-Greedy - matches as little as possible (add ?)")
+    print("Code:")
+    print("+" + "-" * 55 + "+")
+    print("| pattern = '<.*?>'  # Non-greedy          ")
+    print("| matches = re.findall(pattern, text)      ")
+    print("| print(f'Non-greedy: {matches}')          ")
+    print("+" + "-" * 55 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 50 + "+")
+    print("| Non-greedy: ['<h1>', '</h1>', '<p>', '</p>'] ")
+    print("+" + "-" * 50 + "+")
+    wait()
+
+    # 8.12 Real-World Examples
+    print("\n8.12 Real-World Examples")
+    
+    print("\n🔹 Email Validation")
+    print("Code:")
+    print("+" + "-" * 65 + "+")
+    print("| def validate_email(email):                       ")
+    print("|     pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$'")
+    print("|     return bool(re.match(pattern, email))        ")
+    print("+" + "-" * 65 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 50 + "+")
+    print("| 'user@example.com': True                ")
+    print("| 'invalid-email': False                  ")
+    print("+" + "-" * 50 + "+")
+    
+    print("\n🔹 Phone Number Validation")
+    print("Code:")
+    print("+" + "-" * 65 + "+")
+    print("| def validate_phone(phone):                       ")
+    print("|     pattern = r'^\\(?\\d{3}\\)?[-.\\s]?\\d{3}[-.\\s]?\\d{4}$'")
+    print("|     return bool(re.match(pattern, phone))        ")
+    print("+" + "-" * 65 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 50 + "+")
+    print("| '123-456-7890': True                    ")
+    print("| '(123)456-7890': True                   ")
+    print("| '1234567890': True                      ")
+    print("+" + "-" * 50 + "+")
+    wait()
+
 def module_9():
     """Module 9: OOP - classes, objects, inheritance, polymorphism complete"""
     print("📘 Module 9: OOP")
