@@ -4274,6 +4274,98 @@ def module_8():
     print("+" + "-" * 40 + "+")
     wait()
 
+        # 8.8 Alternation (OR Operator)
+    print("\n8.8 Alternation (OR Operator)")
+    print("The pipe | acts as an OR operator.")
+    
+    print("\nCode:")
+    print("+" + "-" * 50 + "+")
+    print("| import re                               ")
+    print("| pattern = r'cat|dog|bird'               ")
+    print("| text = 'I have a cat and a bird'        ")
+    print("| matches = re.findall(pattern, text)     ")
+    print("| print(f'Found: {matches}')              ")
+    print("+" + "-" * 50 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 35 + "+")
+    print("| Found: ['cat', 'bird']        ")
+    print("+" + "-" * 35 + "+")
+    wait()
+
+    # 8.9 Common re Methods
+    print("\n8.9 Common re Methods")
+    
+    print("\n🔹 re.match() - Beginning only")
+    print("Code:")
+    print("+" + "-" * 55 + "+")
+    print("| import re                               ")
+    print("| text = 'Python is great'                ")
+    print("| print(re.match('Python', text))         ")
+    print("| print(re.match('great', text))          ")
+    print("+" + "-" * 55 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 55 + "+")
+    print("| <re.Match object; span=(0, 6), match='Python'> ")
+    print("| None                                               ")
+    print("+" + "-" * 55 + "+")
+    
+    print("\n🔹 re.search() - Anywhere")
+    print("Code:")
+    print("+" + "-" * 45 + "+")
+    print("| print(re.search('great', text))        ")
+    print("+" + "-" * 45 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 55 + "+")
+    print("| <re.Match object; span=(10, 15), match='great'> ")
+    print("+" + "-" * 55 + "+")
+    
+    print("\n🔹 re.findall() - All matches as list")
+    print("Code:")
+    print("+" + "-" * 55 + "+")
+    print("| text = 'My numbers: 123, 456, 789'                ")
+    print("| matches = re.findall(r'\\d+', text)               ")
+    print("| print(f'Numbers: {matches}')                      ")
+    print("+" + "-" * 55 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 40 + "+")
+    print("| Numbers: ['123', '456', '789']    ")
+    print("+" + "-" * 40 + "+")
+    
+    print("\n🔹 re.sub() - Replace matches")
+    print("Code:")
+    print("+" + "-" * 65 + "+")
+    print("| text = 'My phone is 123-456-7890'                     ")
+    print("| new_text = re.sub(r'\\d{3}-\\d{3}-\\d{4}', 'XXX-XXX-XXXX', text)")
+    print("| print(new_text)                                       ")
+    print("+" + "-" * 65 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 45 + "+")
+    print("| My phone is XXX-XXX-XXXX               ")
+    print("+" + "-" * 45 + "+")
+    
+    print("\n🔹 re.compile() - Compile for reuse")
+    print("Code:")
+    print("+" + "-" * 55 + "+")
+    print("| pattern = re.compile(r'\\d+')                ")
+    print("| texts = ['abc123', '456def', '789ghi']       ")
+    print("| for text in texts:                           ")
+    print("|     match = pattern.search(text)             ")
+    print("|     print(f'{match.group()} in {text}')      ")
+    print("+" + "-" * 55 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 40 + "+")
+    print("| 123 in abc123                    ")
+    print("| 456 in 456def                    ")
+    print("| 789 in 789ghi                    ")
+    print("+" + "-" * 40 + "+")
+    wait()
+
 def module_9():
     """Module 9: OOP - classes, objects, inheritance, polymorphism complete"""
     print("📘 Module 9: OOP")
