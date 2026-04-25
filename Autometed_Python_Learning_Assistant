@@ -4537,6 +4537,42 @@ def module_8():
     print("+" + "-" * 55 + "+")
     wait()
 
+        # 8.16 Key Takeaways
+    print("\n8.16 Key Takeaways")
+    print("+" + "-" * 73 + "+")
+    print("| ✅ Regular Expressions are powerful patterns for text searching.      ")
+    print("| ✅ Use raw strings r'' for regex patterns to avoid escape issues.     ")
+    print("| ✅ Metacharacters have special meanings (. * + ? {} [] () | ^ $)      ")
+    print("| ✅ Character classes [abc] match any character in the set.            ")
+    print("| ✅ Predefined shorthands: \\d (digit), \\w (word), \\s (space).          ")
+    print("| ✅ Quantifiers control repetition: * (0+), + (1+), ? (0-1)            ")
+    print("| ✅ Anchors ^ and $ match positions, not characters.                   ")
+    print("| ✅ Groups () capture matched text for extraction.                     ")
+    print("| ✅ re.match() checks beginning; re.search() checks anywhere.          ")
+    print("| ✅ re.findall() returns all matches; re.sub() replaces.               ")
+    print("| ✅ Flags modify behavior: re.I (ignore case), re.M (multiline).       ")
+    print("| ✅ Greedy quantifiers match as much as possible; add ? for non-greedy.")
+    print("| ✅ Compile patterns with re.compile() for better performance.         ")
+    print("+" + "-" * 73 + "+")
+    
+    print("\n📢 Final Words")
+    print("+" + "-" * 55 + "+")
+    print("| Regex = Pattern matching language                      ")
+    print("| Metacharacters = Special symbols with meaning          ")
+    print("| Character class = Set of characters to match           ")
+    print("| Quantifier = Specifies repetition count                ")
+    print("| Anchor = Matches position, not character               ")
+    print("| Group = Captures matched text                          ")
+    print("| Greedy = Matches as much as possible                   ")
+    print("| Non-greedy = Matches as little as possible             ")
+    print("| Module 8 ends here. Next: Module 9 - OOP 🚀            ")
+    print("+" + "-" * 55 + "+")
+    
+    if progress["completed_modules"] < 8:
+        progress["completed_modules"] = 8
+    show_progress()
+    wait()
+
 def module_9():
     """Module 9: OOP - classes, objects, inheritance, polymorphism complete"""
     print("📘 Module 9: OOP")
