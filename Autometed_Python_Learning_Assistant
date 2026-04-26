@@ -4574,8 +4574,91 @@ def module_8():
     wait()
 
 def module_9():
-    """Module 9: OOP - classes, objects, inheritance, polymorphism complete"""
-    print("📘 Module 9: OOP")
+    # 9.0 Introduction
+    print("📘 Module 9: Object-Oriented Programming (OOP)")
+    print("9.0 Introduction (Module Overview)")
+    print("In this module, we will learn:")
+    print("    - What OOP is and why it is necessary")
+    print("    - Procedural vs Object-Oriented Programming")
+    print("    - Classes and Objects")
+    print("    - Attributes (instance variables) and Methods")
+    print("    - The __init__() constructor method")
+    print("    - self parameter")
+    print("    - Encapsulation (private attributes, getters/setters, properties)")
+    print("    - Inheritance (single, multiple, multilevel)")
+    print("    - Method Overriding")
+    print("    - super() function")
+    print("    - Polymorphism (duck typing)")
+    print("    - Abstraction (abstract classes, ABC module)")
+    print("    - Class variables vs Instance variables")
+    print("    - Static methods and Class methods (@staticmethod, @classmethod)")
+    print("    - Magic/Dunder methods (__str__, __repr__, __len__, etc.)")
+    print("    - Composition vs Inheritance")
+    print("    - Common mistakes")
+    print("    - Practice problems")
+    print("-" * 50)
+    wait()
+
+    # 9.1 What is Object-Oriented Programming?
+    print("\n9.1 What is Object-Oriented Programming?")
+    print("OOP is a programming paradigm that organizes code around 'objects' rather than functions.")
+    print("Simple Explanation: Like a blueprint for a house - you create one blueprint, build many houses.")
+    
+    print("\nProcedural vs OOP:")
+    print("+" + "-" * 60 + "+")
+    print("| Procedural Programming          | Object-Oriented Programming        ")
+    print("+" + "-" * 60 + "+")
+    print("| Focuses on functions/actions    | Focuses on objects/data            ")
+    print("| Data and functions are separate | Data and functions are together    ")
+    print("| Harder to manage large projects | Easier to manage large projects    ")
+    print("| Less code reuse                 | More code reuse (inheritance)      ")
+    print("+" + "-" * 60 + "+")
+    
+    print("\nWhy OOP matters:")
+    print("    - Modularity - Code is organized into self-contained objects")
+    print("    - Reusability - Classes can be reused across projects")
+    print("    - Maintainability - Easier to update and fix code")
+    print("    - Data hiding - Protect data from accidental modification")
+    print("    - Modeling real world - Objects represent real things")
+    
+    print("\nFour main pillars of OOP:")
+    print("+" + "-" * 50 + "+")
+    print("| Pillar         | Description                              ")
+    print("+" + "-" * 50 + "+")
+    print("| Encapsulation  | Bundling data and methods together       ")
+    print("| Inheritance    | Creating new classes based on existing   ")
+    print("| Polymorphism   | Same interface, different implementations")
+    print("| Abstraction    | Hiding complex implementation            ")
+    print("+" + "-" * 50 + "+")
+    wait()
+
+    # 9.2 Classes and Objects
+    print("\n9.2 Classes and Objects")
+    print("Class: A blueprint or template for creating objects.")
+    print("Object: An instance of a class.")
+    
+    print("\nSyntax for creating a class:")
+    print("class ClassName:")
+    print("    pass")
+    
+    print("\nSyntax for creating an object:")
+    print("object_name = ClassName()")
+    
+    print("\nExample: Creating a simple class")
+    print("Code:")
+    print("+" + "-" * 35 + "+")
+    print("| class Student:        ")
+    print("|     pass              ")
+    print("|                       ")
+    print("| student1 = Student()  ")
+    print("| student2 = Student()  ")
+    print("| print(type(student1)) ")
+    print("+" + "-" * 35 + "+")
+    
+    print("\nOutput:")
+    print("+" + "-" * 40 + "+")
+    print("| <class '__main__.Student'>    ")
+    print("+" + "-" * 40 + "+")
     wait()
 
 def module_10():
