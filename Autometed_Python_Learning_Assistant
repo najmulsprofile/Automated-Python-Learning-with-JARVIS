@@ -5258,6 +5258,42 @@ def module_9():
     print("+" + "-" * 65 + "+")
     wait()
 
+        # 9.20 Key Takeaways
+    print("\n9.20 Key Takeaways")
+    print("+" + "-" * 65 + "+")
+    print("| ✅ OOP organizes code around objects with data and methods.        ")
+    print("| ✅ A class is a blueprint; an object is an instance.              ")
+    print("| ✅ Encapsulation bundles data and methods, hiding internal details.")
+    print("| ✅ Inheritance allows child classes to reuse parent class code.    ")
+    print("| ✅ Polymorphism allows same method name to work differently.       ")
+    print("| ✅ Abstraction hides complex implementation, showing only essentials.")
+    print("| ✅ Use 'self' to refer to current instance inside methods.        ")
+    print("| ✅ __init__() is the constructor, called when creating objects.   ")
+    print("| ✅ Use super() to call parent class methods.                      ")
+    print("| ✅ Class variables are shared; instance variables are unique.     ")
+    print("| ✅ @staticmethod for utilities, @classmethod for factory methods. ")
+    print("| ✅ Magic methods (dunder) give classes special behaviors.         ")
+    print("| ✅ Favor composition over inheritance when appropriate.           ")
+    print("+" + "-" * 65 + "+")
+    
+    print("\n📢 Final Words")
+    print("+" + "-" * 55 + "+")
+    print("| Class = Blueprint / Template                       ")
+    print("| Object = Instance / Actual thing                   ")
+    print("| Encapsulation = Data hiding                        ")
+    print("| Inheritance = Code reuse                           ")
+    print("| Polymorphism = Many forms                          ")
+    print("| Abstraction = Hide complexity                      ")
+    print("| self = Current instance                            ")
+    print("| super() = Parent class access                      ")
+    print("| Module 9 ends here. Next: Module 10 - Unit Testing & Advanced Topics 🚀 ")
+    print("+" + "-" * 55 + "+")
+    
+    if progress["completed_modules"] < 9:
+        progress["completed_modules"] = 9
+    show_progress()
+    wait()
+
 def module_10():
     """Module 10: Unit Testing & Advanced - testing frameworks complete"""
     print("📘 Module 10: Unit Testing & Advanced")
